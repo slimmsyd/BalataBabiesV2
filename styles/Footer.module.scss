@@ -1,0 +1,57 @@
+
+
+.footerWrapper  { 
+    background: url("../public/assets/FooterBG.png");
+    background-size: cover;
+    background-position: center center;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+    .footerHeading { 
+        padding: 60px 0px 20px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:5px;
+
+        button { 
+            border: 1px solid #ffff;
+            color: #fff;
+            width: 150px;
+            height: 45px;
+            font-size: 19px;
+            transition: transform 500ms ease-in-out;
+            cursor: pointer;
+        }
+        button:hover {
+            transform: translateY(-5px);
+          }
+
+
+        ul { 
+        padding: 0;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        li {
+            padding: 0 20px;
+            cursor: pointer;
+        }
+       }
+
+    .btn { 
+        border-radius: 20px;
+        background: transparent;
+
+
+
+
+    }
+}

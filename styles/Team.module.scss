@@ -1,0 +1,49 @@
+@media only screen and (max-width: 750px) { 
+    .teamWrapper { 
+        text-align: center;
+    }
+
+}
+
+
+.teamWrapper { 
+    min-height: 80vh;
+
+    h1, p  { 
+        color: black;
+    }
+    .teamHeader  { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center    ;
+    }
+
+ 
+    .teamCard { 
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border:  1px solid black;
+        padding: 0;
+        margin: 0rem 5rem;
+    }
+
+    .teamCardWrapper { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        p  {
+           margin: 10px;
+           width: 50%;
+        } 
+    }
+
+        .swiper { 
+            padding-top: 25px;
+        }
+
+}

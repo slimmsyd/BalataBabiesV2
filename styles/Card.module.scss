@@ -1,0 +1,46 @@
+@media only screen and (max-width: 750px) { 
+    .cardWrapper  {
+        flex-direction: column !important;
+    }
+
+    .card1, .card2, .card3, .card4 { 
+        background-position: center center !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        width: 100% !important;
+        height: 100% !important;
+
+    }
+    
+    
+}
+
+.cardWrapper { 
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+    .card1, .card2, .card3, .card4 { 
+        background-position: center center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        width: 500px;
+        height: 330px;
+    }
+    .card1 { 
+        background: url("../assets/TEALBG.png");
+    }
+    .card2 { 
+        background: url("../assets/PURPLEBG.png");
+    }
+    .card3 { 
+        background: url("../assets/PINKBG.png");
+    }
+    .card4 { 
+        background: url("../assets/BLUEBG.png")
+    }
+}

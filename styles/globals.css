@@ -1,26 +1,93 @@
+
+  @import url("https://use.typekit.net/tlv7fpe.css");
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: omnes-cyrillic, sans-serif;
+  overflow-x: hidden;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+/* GLOBAL COLRS */
+  #blue { 
+    color :#68D2F2;
   }
-  body {
-    color: white;
-    background: black;
+
+/* GLOBAL COLRS */
+
+.wrapper { 
+  padding-top: 25px;
+  padding-right: 80px;
+  padding-left: 80px;
+  grid-template-rows: 30px repeat(3, 1fr) 30px;
+  display: grid;
+}
+.btn {
+  margin: 20px 0px 0px 0px;
+  width: 270px;
+  border: 1px solid blue;
+  background: transparent;
+  height: 65px;
+  border-radius: 20px;
+  color: blue;
+  cursor: pointer;
+  transition: transform 500ms ease-in-out;
+}
+.btn:hover {
+  transform: translate(-5px);
+}
+
+h1 { 
+  font-size: 60px;
+}
+h3, h1{ 
+  color: #fff;
+}
+h3 {
+  /* SAME AS PARAGRAPH */
+  font-size: 16px;
+}
+
+p { 
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+
+}
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+/* SWIPER GLOBAL CLASS */
+
+.swiper-slide { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+.swiper { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-wrapper { 
+  /* transform: translate3d(0px, 0px, 0px) !important; */
+  display: flex;
+  justify-content: center !important;
+  flex-direction: row;
+  justify-content: center;
+  /* gap: 70px; */
+}
+
+@media only screen and (max-width: 750px) { 
+  .swiper-wrapper { 
+    gap: 140px  !important;
   }
 }
+/* SWIPER GLOBAL CLASS */
+

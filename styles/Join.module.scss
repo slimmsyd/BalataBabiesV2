@@ -1,0 +1,58 @@
+@media only screen and (max-width: 750px)  { 
+    .joinWrapper { 
+        justify-content: center;
+        padding-left: 0 !important;
+        text-align: center;
+        display: block !important;
+
+        p , h1 { 
+            text-align: left ;
+            padding: 0px 10px;
+        }
+     
+    }
+    .joinDiv { 
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+}
+
+
+.joinWrapper { 
+    padding-left: 100px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  
+
+    .joinDiv { 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 50%;
+    }
+    h1, button { 
+        color: #68D2F2;
+    }
+
+    button { 
+        border: 1px solid #68D2F2;
+        font-size: 24px;;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+   
+    }
+    
+
+     p{ 
+        color: #0a0a0a;
+    }
+  
+
+}

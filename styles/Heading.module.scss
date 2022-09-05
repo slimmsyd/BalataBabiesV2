@@ -1,0 +1,50 @@
+
+@media only screen and (max-width: 750px) {
+    .headingWrapper  {
+        display: flex !important;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+.headingWrapper { 
+    min-height: 40vh;
+    background: url("../public/assets/HeaderBG.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 27% auto;
+
+
+    .header { 
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        text-align: center;
+        grid-column: 2;
+        grid-row: 2;
+
+        .btnHeader {
+            cursor: pointer;
+            border: none;
+            font-size: 28px;
+            color: #fff;
+            background: #E979E2;
+            width: 370px;
+            height: 50px;
+            border-radius: 6px;
+            transition: transform 500ms ease;
+        }
+
+        .btnHeader:hover { 
+            transform: translateY(-5px);
+            transition: transform 500ms ease;
+        }
+       
+        
+    }
+}

@@ -1,0 +1,18 @@
+
+.links { 
+    position: absolute;
+    right: 30px; 
+    top: 50px;
+    z-index: 10;
+
+    ul { 
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li { 
+            cursor: pointer;
+        }
+    }
+}

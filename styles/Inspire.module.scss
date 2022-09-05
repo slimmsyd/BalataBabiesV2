@@ -1,0 +1,64 @@
+
+@media only screen and (max-width: 750px)  { 
+    .joinWrapper { 
+        justify-content: center;
+        padding-left: 0 !important;
+        text-align: center;
+        flex-direction: column;
+
+        h1, p { 
+            padding: 0px 10px;
+            text-align: left;
+        }
+
+    }
+    .joinDiv { 
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+
+}
+
+
+.joinWrapper { 
+    padding-left: 100px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('../public/assets/BBPurple.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+
+    .joinDiv { 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 50%;
+    }
+    .imageDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    h1, button { 
+        color: #ffff;
+    }
+
+    button { 
+        
+        border: 1px solid #ffff;
+        font-size: 24px;;
+    }
+
+ p{ 
+        color: #0a0a0a;
+    }
+  
+
+}

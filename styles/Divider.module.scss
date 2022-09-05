@@ -1,0 +1,18 @@
+.dividerWrapper { 
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 750px) { 
+    .dividerWrapper { 
+        .imageDiv { 
+            width: 50%;
+
+        }
+    }
+
+}
